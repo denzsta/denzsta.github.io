@@ -27,6 +27,7 @@ ul li {
 }
 
 a {
+<<<<<<< HEAD
    color: gray;
    -webkit-transition: color 0.2s ease-out;
    -moz-transition: color 0.2s ease-out;
@@ -37,6 +38,18 @@ a {
 
 a:hover {
   color: white;
+=======
+	 color: gray;
+	 -webkit-transition: color 0.2s ease-out;
+	 -moz-transition: color 0.2s ease-out;
+	 -o-transition: color 0.2s ease-out;
+	 -ms-transition: color 0.2s ease-out;
+	 transition: color 0.2s ease-out;
+}
+
+a:hover {
+	color: white
+>>>>>>> 79b473d48902446783384a8c20dcf8c4f3e074c8
 }
 
 * {
@@ -58,6 +71,7 @@ a:hover {
   text-transform: uppercase;
   
 }
+<<<<<<< HEAD
 
 .waviy2 {
   position: relative;
@@ -72,3 +86,13 @@ a:hover {
   text-transform: uppercase;
   
 }
+=======
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+>>>>>>> 79b473d48902446783384a8c20dcf8c4f3e074c8
