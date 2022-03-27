@@ -27,7 +27,7 @@ ul li {
 }
 
 a {
-	 color: white;
+	 color: gray;
 	 -webkit-transition: color 0.2s ease-out;
 	 -moz-transition: color 0.2s ease-out;
 	 -o-transition: color 0.2s ease-out;
@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-	color: gray
+	color: white
 }
 
 * {
