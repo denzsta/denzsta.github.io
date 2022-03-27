@@ -1,0 +1,61 @@
+body {
+	background: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orta {
+    background: #121212;
+    min-height: 100vh;
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+	display: inline;
+	margin-left:20px;
+	font-size: 32px;
+}
+
+a {
+	color: white
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Arial', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
