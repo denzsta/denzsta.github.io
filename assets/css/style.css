@@ -11,12 +11,12 @@ body {
 .orta {
     background: #121212;
     min-height: 100vh;
-  display: flex;
+    display: flex inline;
     justify-content: flex-end;
     flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -78,7 +78,7 @@ a:hover {
   text-transform: uppercase;
   
 }
-=======
+
 @keyframes waviy {
   0%,40%,100% {
     transform: translateY(0)
@@ -87,3 +87,62 @@ a:hover {
     transform: translateY(-20px)
   }
 }
+
+
+.card {
+  width: 400px;
+  background: #1a1a1a;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  box-shadow: red
+}
+
+.card h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card .skill {
+  height: 50px;
+}
+
+.card .skill span {
+  display: block;
+}
+
+.card .skill .level {
+  text-align: right;
+  transform: translateY(-1em);
+  position: relative;
+}
+
+.card .skill .level::after {
+  content: '';
+  position: absolute;
+  top: 1.2em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: orange;
+  background-repeat: no-repeat;
+  background-position: top 1px left 1px;
+}
+
+.card .skill.java .level::after {
+  background-size: 99.5% 1em;
+}
+
+.card .skill.sql .level::after {
+  background-size: 99.5% 1em;
+}
+
+.card .skill.skript .level::after {
+  background-size: 99.5% 1em;
+}
+
